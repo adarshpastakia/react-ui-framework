@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@react-fabric/core": "^0.0.0",
+    "@react-fabric/form": "^0.0.0",
     "@react-fabric/utilities": "^0.0.0",
     "classnames": "^2.5.1",
     "color": "^4.2.3",

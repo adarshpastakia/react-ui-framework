@@ -22,7 +22,7 @@
     "pretest": "npm run lint",
     "jest": "jest --ci --runInBand --detectOpenHandles --forceExit --coverage",
     "test": "npm run jest",
-    "dist": "lerna run build --stream",
+    "dist": "lerna run build",
     "watch": "lerna run watch --parallel",
     "release": "lerna version --conventional-commits --yes -m \"chore(release): %v\""
   },
@@ -103,7 +103,7 @@
     "jest-transform-stub": "~2.0.0",
     "jsdom": "~24.0.0",
     "jsdom-global": "~3.0.2",
-    "lerna": "~8.1.2",
+    "lerna": "~8.1.8",
     "lerna-changelog": "~2.2.0",
     "monaco-editor-webpack-plugin": "~7.1.0",
     "msw": "~2.4.8",
